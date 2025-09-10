@@ -1,7 +1,7 @@
 /*
   super_trunfo.c
   Projeto: Cadastro de 2 cartas do Super Trunfo (Países / Cidades)
-  Autor: (seu nome)
+  Autor: (Carlos)
   Descrição: Leitura via teclado de duas cartas com:
     - Estado (char 'A'..'H')
     - Código da carta (string, ex: "A01")
