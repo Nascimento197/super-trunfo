@@ -29,18 +29,34 @@ Como compilar e executar
 No Windows
 Instale o compilador [MinGW](https://www.mingw-w64.org/downloads/).
 Adicione o caminho `bin` do MinGW ao **PATH** do Windows.
+
+---
+
 Verifique a instalação:
    gcc --version
+
+---
+
 Compile
   gcc super_trunfo.c -o super_trunfo.exe
+
+---
+
 Execute
   super_trunfo.exe
+
+---
 
 No Linux (ou WSL)
 Instale o GCC:
   sudo apt update && sudo apt install build-essential -y
+
+---
+
 Execute
   ./super_trunfo
+
+---
 
 Exemplo De Uso
 Entrada
@@ -53,6 +69,8 @@ População: 12325000
 PIB: 699.28
 Número de pontos turísticos: 50
 
+---
+
 === Cadastro da Carta 2 ===
 Estado (A-H): B
 Código da carta (ex: B02): B02
@@ -61,6 +79,8 @@ População: 6748000
 Área: 1200.25
 PIB: 300.50
 Número de pontos turísticos: 30
+
+---
 
 Saida
 ----- Resultado: Cartas cadastradas -----
@@ -74,6 +94,8 @@ População: 12325000
 PIB: 699.28 bilhões de reais
 Número de Pontos Turísticos: 50
 
+---
+
 Carta 2:
 Estado: B
 Código: B02
@@ -82,3 +104,5 @@ População: 6748000
 Área: 1200.25 km²
 PIB: 300.50 bilhões de reais
 Número de Pontos Turísticos: 30
+
+
